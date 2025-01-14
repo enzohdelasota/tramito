@@ -1,0 +1,13 @@
+{
+  "name": "tmt_mf_host",
+  "remotes": [
+    {
+      "name": "tmt_mf_toolbar",
+      "entry": "http://localhost:4201/mf-manifest.json"
+    },
+    {
+      "name": "tmt_mf_footer",
+      "entry": "http://localhost:4202/mf-manifest.json"
+    }
+  ]
+}

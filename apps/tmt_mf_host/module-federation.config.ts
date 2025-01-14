@@ -14,7 +14,7 @@ const config: ModuleFederationConfig = {
    * declare module 'my-external-remote';
    *
    */
-  remotes: ['tmt_mf_toolbar', 'tmt_mf_footer'],
+  remotes: [],
 };
 
 /**

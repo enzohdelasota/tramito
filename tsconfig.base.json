@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@tramito/core": ["libs/tramito-core/src/index.ts"],
+      "@tramito/core/mf": ["libs/tramito-core/mf/src/index.ts"],
       "@tramito/ui": ["libs/tramito-ui/src/index.ts"],
       "@tramito/ui/button": ["libs/tramito-ui/button/src/index.ts"],
       "tmt_mf_footer/Routes": [

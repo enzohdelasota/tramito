@@ -1,0 +1,13 @@
+<main class="flex flex-col min-h-screen bg-prueba-uno">
+  <header>
+    <tmt-mf-remote-wrapper [config]="{ remoteId: 'tmt_mf_toolbar/Toolbar', className: 'RemoteEntryComponent' }" />
+  </header>
+
+  <main class="flex-grow flex">
+    <router-outlet />
+  </main>
+
+  <footer>
+    <tmt-mf-remote-wrapper [config]="{ remoteId: 'tmt_mf_footer/Footer', className: 'RemoteEntryComponent' }" />
+  </footer>
+</main>

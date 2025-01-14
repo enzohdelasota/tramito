@@ -4,6 +4,7 @@ const config: ModuleFederationConfig = {
   name: 'tmt_mf_footer',
   exposes: {
     './Routes': 'apps/tmt_mf_footer/src/app/remote-entry/entry.routes.ts',
+    './Footer': 'apps/tmt_mf_footer/src/app/remote-entry/entry.component.ts',
   },
 };
 
