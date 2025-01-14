@@ -27,3 +27,7 @@ pnpx nx g @nx/angular:lib libs/tramito-core --publishable --importPath=@tramito/
 pnpx nx g @nx/angular:lib libs/tramito-ui --publishable --importPath=@tramito/core --add-tailwind
 pnpx nx g @nx/angular:library-secondary-entry-point --library=tramito-ui --name=button
 ```
+
+```sh
+docker build -t tramito .
+```
